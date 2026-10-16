@@ -265,9 +265,8 @@ A coleção usada está em [`postman/api-pedidos.postman_collection.json`](postm
 
 ## Uso de IA
 
-> ⚠️ **Alan: revise e reescreva esta seção com as suas palavras antes de entregar.** Ela precisa refletir o que você realmente fez e decidiu.
 
-Utilizei IA (Claude, da Anthropic) como apoio no desenvolvimento deste projeto, nas seguintes tarefas:
+Utilizei IA (Claude) como apoio no desenvolvimento deste projeto, nas seguintes tarefas:
 
 - geração da estrutura inicial em camadas e do código das rotas, controllers, services e repositório;
 - escrita dos testes automatizados com Jest e Supertest;

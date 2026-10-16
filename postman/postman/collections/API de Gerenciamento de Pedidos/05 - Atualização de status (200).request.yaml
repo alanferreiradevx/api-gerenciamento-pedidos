@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{baseUrl}}/pedidos/{{pedidoId}}/status"
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "status": "em_preparacao"
+    }
+scripts:
+  - type: afterResponse
+    code: pm.test("Status 200", () => pm.response.to.have.status(200));
+    language: text/javascript
+order: 5000

@@ -1,0 +1,5 @@
+$kind: collection
+description: Execute na ordem. Reinicie a API (npm start) antes, para os IDs começarem em 1.
+variables:
+  baseUrl: http://localhost:3000
+  pedidoId: ""

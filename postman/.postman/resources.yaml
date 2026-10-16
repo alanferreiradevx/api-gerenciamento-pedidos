@@ -1,0 +1,11 @@
+# Use this workspace to collaborate
+workspace:
+  id: eb3a956b-d8fa-481b-8791-24339f8f63b9
+
+localResources:
+  collections:
+    - ../api-pedidos.postman_collection.json
+
+cloudResources:
+  collections:
+    ../postman/collections/API de Gerenciamento de Pedidos: c378f695-b0b9-41d3-a04f-5a46a93a47e1
